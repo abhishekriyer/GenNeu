@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        
+        
+        
+        <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1" />
+<script type="text/javascript">
+(function () {
+    function appendMetaTagAttributes(metaTag, attribute, values) {
+        var elem = document.querySelector("meta[name=" + metaTag + "]");
+
+        if (elem) {
+            var attrContent = elem.getAttribute(attribute);
+            elem.setAttribute(attribute, (attrContent ? attrContent + "," : "") + values.join(","));
+        }
+    }
+
+    if (navigator && /OutSystemsApp/i.test(navigator.userAgent)) {
+        // If this app is running on the native shell, we want to disable the zoom
+        appendMetaTagAttributes("viewport", "content", ["user-scalable=no", "minimum-scale=1.0"]);
+    }
+})();</script>
+
+        <script type="text/javascript" src="scripts/OutSystemsManifestLoader.js?Uno7DkMuu4+3RKfSExTIUg"></script>
+<script type="text/javascript" src="scripts/OutSystems.js?xGdp8SOt6XUIcpAjVspAiw"></script>
+<script type="text/javascript" src="scripts/OutSystemsReactView.js?WkeBbh6QsQwIkusmvgZ9EA"></script>
+<script type="text/javascript" src="scripts/cordova.js?7KqI9_oL9hClomz1RdzTqg"></script>
+<script type="text/javascript" src="scripts/Debugger.js?SwI7JLSMD9s5+lgQ5cGLlQ"></script>
+<script type="text/javascript" src="scripts/GenNeu.appDefinition.js?Hembbs+FqVeZZe6djKTEMg"></script>
+<script type="text/javascript" src="scripts/OutSystemsReactWidgets.js?G0dYFyICODS+9VujGw1MjA"></script>
+<link type="text/css" rel="stylesheet" href="css/_Basic.css?EqGzAe81QbZLXJyfY3oLwA"></link>
+
+        <script type="text/javascript">OSManifestLoader.indexVersionToken = "SFegpnJ6oTI48n3E65JoRg";
+</script>
+    </head>
+    <body>
+        <div id="reactContainer"></div>
+        <noscript><span>JavaScript is required</span></noscript>
+
+        <script type="text/javascript" src="scripts/GenNeu.index.js?Ozfl536D8kBCaW3bbXdFuA"></script>
+
+    </body>
+</html>
